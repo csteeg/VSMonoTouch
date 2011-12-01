@@ -10,3 +10,4 @@ obj
 
 # mstest test results
 TestResults
+*.vsmdi

@@ -160,7 +160,7 @@ namespace Follesoe.VSMonoTouch
 
             if (VSMonoTouchPackage.IsMonoTouchProject(project))
             {
-                var v10FrameworkName = (new FrameworkName(".NETFramework", new Version(1, 0))).FullName;
+                var v10FrameworkName = (new FrameworkName(".NETFramework", new Version(4, 0))).FullName;
                 var item = project.Properties.Item(targetFrameworkMoniker);
                 if (item != null)
                 {
